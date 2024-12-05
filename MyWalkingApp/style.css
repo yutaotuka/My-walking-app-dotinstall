@@ -1,7 +1,6 @@
 @charset "utf-8";
 
 body {
-  background: pink;
   margin: 0;
   box-sizing: border-box;
 }
@@ -10,6 +9,10 @@ h1{
   font-size: 0;
 }
 h2{
+  margin: 0;
+  font-weight: normal;
+}
+h3{
   margin: 0;
   font-weight: normal;
 }
@@ -35,7 +38,6 @@ header{
   justify-content: space-between;
   align-items: center;
   padding: 16px 32px;
-  background-color: white;
 }
 
 /* hero */
@@ -51,3 +53,25 @@ header{
 .hero img{
   margin:64px 0 0;
 }
+
+/* features */
+.features{
+  padding: 74px 0;
+}
+.features h2{
+  text-align: center;
+}
+.feature{
+  margin: 74px 16px 0;
+}
+.feature div{
+  text-align: center;
+}
+.feature h3{
+  margin: 26px 0;
+}
+.feature p{
+  margin: 26px 0;
+}
+
+/* footer */
