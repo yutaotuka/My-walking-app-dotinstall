@@ -75,3 +75,11 @@ header{
 }
 
 /* footer */
+footer{
+  background: #323436;
+  padding: 71px 0;
+  text-align: center;
+}
+footer small{
+  color: white;
+}
