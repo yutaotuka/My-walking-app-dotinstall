@@ -9,6 +9,13 @@ h1{
   margin: 0;
   font-size: 0;
 }
+h2{
+  margin: 0;
+  font-weight: normal;
+}
+p{
+  margin: 0;
+}
 img{
   margin: 0;
   vertical-align: bottom;
@@ -32,3 +39,15 @@ header{
 }
 
 /* hero */
+.hero{
+  text-align: center;
+  background: #99E6FF url(bg.png) repeat-x bottom;
+  padding: 71px 0 0;
+}
+.hero div .btn{
+  display: inline-block;
+  margin: 64px 0 0;
+}
+.hero img{
+  margin:64px 0 0;
+}
